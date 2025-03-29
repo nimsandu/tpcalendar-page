@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Poet's Calendar - A Sanctuary for Your Poetry</title>
+    <meta name="description" content="The Poet's Calendar - A private, secure space for poets to create, edit, and store their poetry. Your words, your sanctuary.">
+    <meta name="keywords" content="poetry app, poet's calendar, poem notes, private poetry, secure poetry, poetry storage, poetry writing app">
+    <meta name="author" content="Nimsandu Kottage">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tpcalen.vercel.app/">
+    <meta property="og:title" content="The Poet's Calendar - A Sanctuary for Your Poetry">
+    <meta property="og:description" content="A private, secure space for poets to create, edit, and store their poetry. Your words, your sanctuary.">
+    <meta property="og:image" content="https://tpcalen.vercel.app/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tpcalen.vercel.app/">
+    <meta property="twitter:title" content="The Poet's Calendar - A Sanctuary for Your Poetry">
+    <meta property="twitter:description" content="A private, secure space for poets to create, edit, and store their poetry. Your words, your sanctuary.">
+    <meta property="twitter:image" content="https://tpcalen.vercel.app/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-180.png">
+    
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <!-- Replace with actual logo -->
+                        <div class="logo-placeholder">
+                            <img src="./images/tpcicon.svg" class="logo-icn"></img><!-- Logo placeholder: Orange calligraphy-style logo with "The Poet's Calendar" text -->
+                            <span>The Poet's Calendar</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <div class="auth-buttons">
+                        <a href="https://tpcalen.vercel.app/signin" class="btn btn-outline">Sign In</a>
+                        <a href="https://tpcalen.vercel.app/signup" class="btn btn-primary">Sign Up</a>
+                    </div>
+                </div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>A home for poets.<br>A place for words to live forever.</h1>
+                    <p>The Poet's Calendar is a sanctuary for your poetry - secure, private, and always within reach.</p>
+                    <div class="cta-buttons">
+                        <a href="https://tpcalen.vercel.app/signup" class="btn btn-primary">Start Writing</a>
+                        <a href="#features" class="btn btn-outline">Explore Features</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Hero image placeholder -->
+                    <div class="image-placeholder">
+                        <img src="./images/hero-bg.png" style="width: 100%;"></img>
+                        <!-- Place a hero image showing the app interface with a poem on screen, with glass morphism effect and orange accents -->
+                    </div>
+                </div>
+            </div>
+            <div class="hero-glass-shape"></div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Your Poetry, Your Way</h2>
+                    <p>Everything you need to create, preserve, and share your poetic journey</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card" data-aos="fade-up">
+                        <div class="feature-icon">
+                            <div class="icon-placeholder">
+                                <!-- Icon placeholder: Pen or quill icon -->
+                            </div>
+                        </div>
+                        <h3>Create & Edit</h3>
+                        <p>Write and revise your poems with an intuitive editor designed specifically for poetry.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon">
+                            <div class="icon-placeholder">
+                                <!-- Icon placeholder: Shield/lock icon -->
+                            </div>
+                        </div>
+                        <h3>Private & Secure</h3>
+                        <p>Your words stay yours. We've built privacy into every aspect of The Poet's Calendar.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <div class="icon-placeholder">
+                                <!-- Icon placeholder: Share/export icon -->
+                            </div>
+                        </div>
+                        <h3>Share as Images</h3>
+                        <p>Transform your poems into beautiful images ready to share with the world.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-icon">
+                            <div class="icon-placeholder">
+                                <!-- Icon placeholder: Paintbrush/palette icon -->
+                            </div>
+                        </div>
+                        <h3>Customize Look & Feel</h3>
+                        <p>Personalize your experience with themes and formatting options that suit your style.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-icon">
+                            <div class="icon-placeholder">
+                                <!-- Icon placeholder: Cloud/backup icon -->
+                            </div>
+                        </div>
+                        <h3>Backup & Restore</h3>
+                        <p>Never lose your creative work with secure backup and easy restoration.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="feature-icon">
+                            <div class="icon-placeholder">
+                                <!-- Icon placeholder: Device/responsive icon -->
+                            </div>
+                        </div>
+                        <h3>Device Optimized</h3>
+                        <p>Write on any device with a responsive design that adapts to your screen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-glass-shape"></div>
+        </section>
+
+        <section class="app-showcase">
+            <div class="container">
+                <div class="app-showcase-content">
+                    <div class="section-header">
+                        <h2>Crafted for the Poet's Journey</h2>
+                        <p>An elegant interface that lets your creativity flow uninterrupted</p>
+                    </div>
+                    <div class="showcase-details">
+                        <div class="showcase-item" data-aos="fade-right">
+                            <h3>Distraction-Free Writing</h3>
+                            <p>Focus solely on your words with our minimalist interface designed to enhance the writing experience.</p>
+                        </div>
+                        <div class="showcase-item" data-aos="fade-right" data-aos-delay="100">
+                            <h3>Organize Your Collection</h3>
+                            <p>Keep your poems organized by collections, themes, or dates for easy access whenever inspiration strikes.</p>
+                        </div>
+                        <div class="showcase-item" data-aos="fade-right" data-aos-delay="200">
+                            <h3>Seamless Cloud Sync</h3>
+                            <p>Access your poetry across all your devices with secure cloud synchronization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-showcase-image" data-aos="fade-left">
+                    <!-- App showcase image placeholder -->
+                    <div class="image-placeholder">
+                        <img src="./images/poem-bg.png" style="width: 100%;"></img>
+                        <!-- Place device mockups showing the app interface across different devices (mobile and desktop) -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2>About The Poet's Calendar</h2>
+                    </div>
+                    <div class="about-text">
+                        <p>The Poet's Calendar is a space created for those who find solace in poetry. Whether you're capturing fleeting thoughts, penning down emotions, or weaving stories through verse, this app ensures your words are safe, organized, and always within reach.</p>
+                        <p>With features to save, edit, back up, and restore your poems, you'll never have to worry about what others might think. More than just a writing tool, this is a sanctuary, a place where poets can simply be themselves.</p>
+                        <p>Because poetry isn't just written. It's lived.</p>
+                    </div>
+                    <div class="version-info">
+                        <span>Current Version: PublicVersionOne</span>
+                    </div>
+                </div>
+                <div class="credits">
+                    <h3>Credits</h3>
+                    <ul>
+                        <li><span>Developed by:</span> Nimsandu Kottage</li>
+                        <li><span>Calendar illustrations:</span> Paco yao (instagram.com/pacoyao)</li>
+                        <li><span>Illustrations (July, August):</span> Oamul Lu (oamul.com)</li>
+                    </ul>
+                    <p class="declaration">All illustrations are fetched from (pinterest.com) and were not altered or used for any commercial purposes.</p>
+                </div>
+            </div>
+            <div class="about-glass-shape"></div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Begin Your Poetic Journey Today</h2>
+                    <p>Join a growing community of poets who've found their digital sanctuary.</p>
+                    <a href="https://tpcalen.vercel.app/signup" class="btn btn-primary">Create Your Account</a>
+                </div>
+            </div>
+            <div class="cta-glass-shape"></div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <!-- Footer logo placeholder -->
+                        <div class="logo-placeholder">
+                            <span>The Poet's Calendar</span>
+                        </div>
+                    </div>
+                    <p>A sanctuary for your poetry.</p>
+                    <div class="contact-info">
+                        <p>Contact: <a href="mailto:visionprojects2info@gmail.com">visionprojects2info@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>App</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="https://tpcalen.vercel.app/signin">Sign In</a></li>
+                            <li><a href="https://tpcalen.vercel.app/signup">Sign Up</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="https://tpcalen.vercel.app/help">Help</a></li>
+                            <li><a href="https://tpcalen.vercel.app/privacy">Privacy Policy</a></li>
+                            <li><a href="https://tpcalen.vercel.app/terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="current-year">2025</span> The Poet's Calendar. Created by Nimsandu Kottage. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
